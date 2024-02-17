@@ -23,25 +23,29 @@
 
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-md bg-transparent navbar-dark fixed-top">
-        <div class="container">
-            <img src="assets/img/viajes.svg" width="30px" alt="logo viajes">
-            <a class="navbar-brand p-2">Viajes Chile</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ms-auto">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                    <a class="nav-link" href="#">Quienes somos</a>
-                    <a class="nav-link" href="#">Destacados</a>
-                    <a class="nav-link" href="#">Contacto</a>
+<body class="fondo1">
+    <header id="inicio">
+        <nav class="navbar navbar-expand-md bg-transparent navbar-dark fixed-top">
+            <div class="container">
+                <img src="assets/img/viajes.svg" width="30px" alt="logo viajes">
+                <a class="navbar-brand p-2">Viajes Chile</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                        <a class="nav-link" href="#quienes-somos">Quienes somos</a>
+                        <a class="nav-link" href="#destacados">Destacados</a>
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
+
     <section>
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
@@ -66,9 +70,10 @@
         </div>
     </section>
 
-    <main class="fondo1">
-        <h1 class="qs1 text-center p-5">¿QUIÉNES SOMOS?</h1>
+    <main>
+        <h1 id="quienes-somos" class="qs1 text-center p-5">¿QUIÉNES SOMOS?</h1>
         <hr class="container lineas1">
+
         <section class="container d-none d-sm-block">
             <div class="row">
                 <div class="col-12 col-md-4 p-3 card colort1 mb-3">
@@ -121,7 +126,7 @@
         </section>
 
         <section class="container">
-            <h2 class="qs1 text-center p-4">DESTACADOS</h2>
+            <h2 id="destacados" class="qs1 text-center p-4">DESTACADOS</h2>
             <hr class="container lineas1"><br>
             <div class="row row-cols-1 row-cols-md-4 g-4">
                 <div class="col">
@@ -177,7 +182,7 @@
         </section>
 
         <section class="container p-5">
-            <h2 class="qs1 text-center p-4">CONTACTO</h2>
+            <h2 id="contacto" class="qs1 text-center p-4">CONTACTO</h2>
             <hr class="container lineas1"><br>
             <form class="color3">
                 <div class="mb-3">
@@ -200,7 +205,7 @@
 
         <footer class="text-center">
             <div>
-                <h2 class="qs1 text-center bg-info p-4">Viajes Chile
+                <h2 class="qs1 text-center bg-info p-3">Viajes Chile
                     <a href="https://github.com/" target="_blank"><i
                             class="qs1 nav-link active fa-brands fa-github ps-5 pe-3"></i></a>
                     <a href="https://www.linkedin.com/" target="_blank"><i
