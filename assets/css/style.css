@@ -46,7 +46,7 @@ body {
     font-size: 40px;
     font-weight: 700;
     color: #ffffff;
-    padding-top: 2rem;
+    padding-top: 3rem;
     padding-bottom: 3rem;
 }
 
@@ -82,4 +82,23 @@ body {
     font-size: 1rem;
     font-weight: 400;
     color: #ffffff;
+}
+
+.color3 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffff;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.color4 {
+    padding-top: 2rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.texto-bg {
+    padding-bottom: 20rem;
 }
