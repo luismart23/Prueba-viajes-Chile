@@ -1,3 +1,4 @@
+/* Nueva forma de colocar las fuentes de Google Fonts */
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
@@ -22,6 +23,7 @@ body {
     font-style: normal;
 }
 
+/* Navbar zone */
 .navbar-brand {
     font-size: 23px;
     font-weight: 400;
@@ -32,10 +34,12 @@ body {
     font-weight: 400;
 }
 
+/* Background del main  */
 .fondo1 {
     background-color: #000000;
 }
 
+/* Títulos y estilos reutilizables*/
 .qs1 {
     font-size: 40px;
     font-weight: 700;
@@ -44,6 +48,7 @@ body {
     padding-bottom: 3rem;
 }
 
+/* Estilos de las card que desaparecen */
 .colort1 {
     color: #ffffff;
     text-align: center;
@@ -59,6 +64,7 @@ body {
     background-color: #000000;
 }
 
+/* Líneas separadoras de contenido */
 .lineas1 {
     background-color: #808080;
     height: 3px;
@@ -66,18 +72,21 @@ body {
 
 }
 
+/* H5 */
 .fuente1 {
     font-size: 23px;
     font-weight: 400;
     color: #ffffff;
 }
 
+/* Párrafos */
 .fuente2 {
     font-size: 1rem;
     font-weight: 400;
     color: #ffffff;
 }
 
+/* Estilos del form */
 .color3 {
     font-size: 1rem;
     font-weight: 400;
