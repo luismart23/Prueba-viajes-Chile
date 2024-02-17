@@ -28,8 +28,41 @@ body {
     font-style: normal;
 }
 
-svg {
-    margin: 0 auto;
-    width: 10px;
-    height: 10px;
+.navbar-brand {
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.navbar {
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.fondo1 {
+    background-color: #000000;
+}
+
+.qs1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.colort1 {
+    color: #ffffff;
+    text-align: center;
+    background-color: #000000;
+    border-radius: 0%;
+}
+
+
+.colort2 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: left;
+    background-color: #000000;
+    border-radius: 0%;
 }
